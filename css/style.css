@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Img/2201499689_e605f3d9d6_b.jpg");
+    background-size: cover;
+    background-position-y: -300px;
+    backdrop-filter: blur(10px);
+}
+
+.form-body {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: black ;
+    border-radius: 5%;
+   
+
+}
+
+#tituloLogin {
+
+    color: white;
+    margin-top: 5%;
+    font-size: 1.2rem;
+   
+
+}
+
+.form-body p {
+
+    color: white;
+    margin-top: 5%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-body img {
+    width: 35%;
+    min-width: 50px;
+    border-radius: 60%;
+    margin: 10px;
+    border: solid 1px white;
+
+}
+.form-body a{
+    text-decoration: none;
+    color: aqua;
+}
+.form-body a:hover{
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.login-form input {
+
+    padding: 10px;
+    height: 30px;
+    border: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+
+.login-form button {
+
+    width: 100%;
+    height: 25px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.login-form button:hover {
+
+    transition: 0.2s;
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.login-form hr {
+
+    margin-top: 10%;
+
+}
+.login-form a {
+
+    text-decoration: none;
+    color:white
+
+}
+
+#hubLogin:hover {
+    padding: 1px;
+    margin-left: 2px;
+    background-color: rgb(255, 166, 0);
+    color:black;
+    border-radius: 5px;
+    transition: 10s;
+
+}
+
+.busqueda {
+    background-color: black;
+  }
+
+.form-body audio {
+
+    width: 0;
+    height: 0;
+
+}
+
+/* AQUI COMIENZA EL CSS DE LA PAGINA INDEX.HTML */
+
+.apartadoMenus {
+
+    padding-left: 8%;
+    padding-top: 2%;
+    width: 27%;
+    position: fixed;
+    border-right: solid 1px gray;
+    display: grid;
+    grid-template-rows: 65vh 10vh;
+    padding-bottom: 100vh;
+    
+
+}
+
+.apartadoMenus a {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 2px;
+    text-decoration: none;
+    color:black;
+}
+
+.apartadoMenus li {
+
+    padding-left: 10px;
+
+}
+
+.apartadoMenus li:hover {
+    background-color: rgba(223, 222, 222, 0.432);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 15px;
+    
+}
+
+.button1 {
+    width: 70%;
+    height: 50px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.button1:hover {
+
+    transition: 0.2s;
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    
+}
+
+.button2{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.button2 button{
+    width: 60%;
+    height: 30px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.menuPrincipal li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.menuPrincipal ul {
+
+    list-style: none;
+
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    padding-top:10%;
+
+}
+
+.logout img{
+    width: 12%;
+    border-radius: 100px;
+
+}
+
+.busqueda {
+
+    display: grid;
+    grid-template-columns: 3fr 8fr 2fr;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    position: sticky;
+}
+
+.busqueda h2 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 1%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.busqueda a {
+    text-decoration: none;
+
+
+}
+
+.busqueda input {
+
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0%;
+    border: solid 1px gray;
+    margin-bottom: 10px;
+
+}
+
+.busqueda form {
+
+    display: flex;
+    justify-content: center;
+}
+
+.usuarioInferior {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.publicacionescrack {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.publicaciones {
+
+    margin-left: 37%;
+    padding-top: 4%;
+    width:43%;
+    display: flex;
+    justify-content: flex-start;
+    border-right:solid 1px black;
+
+}
+
+
+.publicaciones img{
+
+    width: 75%;
+    border: solid 1px gray;
+
+}
+
+.headerindex {
+
+position: sticky;
+top:0;
+z-index: 9999;
+
+
+}
+
+/* AQUI COMIENZA EL CSS DE LA PAGINA REGISTRE.HTML */
+
+.form-body2 {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: black ;
+    border-radius: 5%;
+    margin-left: 60%;
+    padding-right: 10px;
+    padding-left: 10px;
+   
+
+}
+
+.form-body2 p {
+
+    color: white;
+    margin-top: 5%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-body2 img {
+    width: 35%;
+    min-width: 50px;
+    border-radius: 60%;
+    margin: 10px;
+    border: solid 1px white;
+
+}
+.form-body2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.form-body2 a:hover{
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Img/2201499689_e605f3d9d6_b.jpg");
+    background-size: cover;
+    background-position-y: -300px;
+    backdrop-filter: blur(0px);
+}
+
+#tituloRegister {
+
+    color: white;
+    margin-top: 5%;
+    font-size: 1.2rem;
+   
+
+}
+
+.textoReg {
+
+    width: 55%;
+    text-decoration:underline;
+    text-align: center;
+    display: flex;
+
+}
+
+/* PERFIL PARTE */
+
+.logoperfil {
+
+    width: 33%;
+    margin-left: 10px;
+
+}
+
+.apartadoMenus2 {
+
+    padding-left: 8%;
+    padding-top: 2%;
+    width: 24%;
+    position: fixed;
+    border-right: solid 1px gray;
+    display: grid;
+    grid-template-rows: 65vh 10vh;
+    padding-bottom: 100vh;
+    
+
+}
+
+.apartadoMenus2 a {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 2px;
+    text-decoration: none;
+    color:black;
+}
+
+.apartadoMenus2 li {
+
+    padding-left: 10px;
+
+}
+
+.apartadoMenus2 li:hover {
+    background-color: rgba(223, 222, 222, 0.432);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 15px;
+    
+}
+
+.fotoperfil {
+
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+
+}
+
+.fotoperfil img {
+
+    border-radius: 100%;  
+    width: 30%; 
+    border: solid 5px rgb(0, 0, 0);
+    margin-right: 10%;
+}
+
+.texto {
+
+    display: flex;
+    justify-content: center;
+}
+
+.texto h1 {
+
+    font-weight:500;
+    display: flex;
+    align-items: center;
+}
+
+.infomanel {
+
+    align-items: end;
+    display: grid;
+
+}
+
+.mispublis hr{
+
+    width: 38.5%;
+    margin-left: 30%;
+    margin-top: 3%;
+
+}
+
+.imagenesguardadas {
+
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-left: 30%;
+    flex-direction: row;
+
+
+}
+
+.imagenesguardadas img {
+
+    width: 20%;
+    display: flex;
+    margin-right: 26px;
+
+}
+
+.imagenesguardadas2{
+
+    justify-content: flex-start;
+    display: flex;
+    height: 80%;
+    padding-right: 15%;
+}
+
+.imagenesguardadas2 img {
+
+    width: 20%;
+    padding-top: 2%;
+    display: flex;
+    margin-top: 26px;
+    margin-right: 26px;
+
+}
+
+.imagenesguardadas3{
+
+    justify-content: flex-start;
+    display: flex;
+    height: 80%;
+    padding-right: 15%;
+}
+
+.botoneditar{
+
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.botoneditar button{
+
+    width: 100px;
+    height: 30px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-right: 5px;
+
+}
+
+.botoneditar button:hover{
+
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+.destacado {
+
+    padding-top: 2%;
+    display: flex;
+    grid-template-rows: 1fr;
+    margin-left: 32%;
+    flex-direction: row;
+    
+
+}
+
+.destacado img{
+
+    width: 65px;
+    margin-right: 2%;
+    border-radius: 100%;
+    height: 65px;
+    margin-top: 30px;
+    margin-right: 5%;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.imagenesguardadas hr {
+
+    width: 17%;
+
+}
+
+.imagenesguardadas h2 {
+
+    display: flex;
+    justify-content: flex-start
+
+}
